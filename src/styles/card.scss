@@ -18,7 +18,7 @@ $blue-accent: rgba(0, 172, 220, 1);
   @media(min-width:768px){
     grid-template-columns:repeat(3, 1fr);
   }
-  
+
   @media(min-width:1024px){
     grid-template-columns:repeat(4, 1fr);
   }
@@ -135,6 +135,6 @@ $blue-accent: rgba(0, 172, 220, 1);
   transform: scale(1.2);
 }
 
-.card:hover .article-name {
+.card:hover .card__article {
   color: #34568b;
 }
